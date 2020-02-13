@@ -1,0 +1,43 @@
+#include <bits/stdc++.h>
+#define REP(i,n) for(int i =0 ;i<n;i++)
+#define FOR(i,a,b) for(int i= a;i<=b;i++)
+#include
+using namespace std ;
+ 
+unsigned int serial[11] ={7,6,8,7,6,0,7,7,7,7,6};
+int main()
+{
+int i = 0;
+FOR(c0,'a','z')
+FOR(c1,'a','z')
+if ( c0 != c1)
+{
+unsigned int v7 = c0;
+unsigned int v8 = (v7 & 1) + 5;
+unsigned v59 = ((v7 >> 4) & 1) + 5;
+unsigned v53 = ((v7 >> 1) & 1) + 5;
+unsigned v55 = ((v7 >> 2) & 1) + 5;
+unsigned v57 = ((v7 >> 3) & 1) + 5;
+unsigned v9 = c1;
+unsigned v45 = (v9 & 1) + 1;
+unsigned v51 = ((v9 >> 4) & 1) + 1;
+unsigned v47 = ((v9 >> 1) & 1) + 1;
+unsigned v10 = ((v9 >> 2) & 1) + 1;
+unsigned v49 = ((v9 >> 3) & 1) + 1;
+//cout << v8+v10<<endl; if ( v8 + v10 != serial[0] || v57+v49!=serial[1]||v53+v51!=serial[2] || v55 + v45 != serial[3]||v59+v47!=serial[4]) continue ; char c3 = 'p'; FOR(c2,'a','z') if (c2 != c3) { unsigned int v26 = c2 ; unsigned int v27 = (v26 & 1) + 5; unsigned int v60 = ((v26 >> 4) & 1) + 5;
+unsigned int v54 = ((v26 >> 1) & 1) + 5;
+unsigned int v56 = ((v26 >> 2) & 1) + 5;
+unsigned int v58 = ((v26 >> 3) & 1) + 5;
+unsigned int v28 = c3 ;
+unsigned int v46 = (v28 & 1) + 1;
+unsigned int v52 = ((v28 >> 4) & 1) + 1;
+unsigned int v48 = ((v28 >> 1) & 1) + 1;
+unsigned int v29 = ((v28 >> 2) & 1) + 1;
+unsigned int v50 = ((v28 >> 3) & 1) + 1;
+if (v27 + v29 != serial[6] || v58+v50 != serial[7]||
+v54 + v52 != serial[8] || v56 + v46 != serial[9]||
+v60 + v48 != serial[10])
+continue ;
+cout << char(c0)<<char(c1)<<char(c2)<<char(c3)< }
+}
+}

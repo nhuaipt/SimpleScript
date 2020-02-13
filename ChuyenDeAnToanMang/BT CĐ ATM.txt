@@ -1,0 +1,25 @@
+//BÀI TẬP CHUYÊN ĐỀ AN TOÀN MẠNG
+
+1. [Đoán số]
+ Viết chương trình trò chơi đoán số dùng ngôn ngữ perl
+-Máy tính định ra một số trong khoảng 1-N (số nguyên)
+-Nhắc người chơi đoán số trong 1-N
+-Nếu số đoán nhỏ hơn hay lớn hơn thì thông báo
+-Nếu đúng, chúc mừng và in số đếm
+-Cho người chơi đoán m lần, mỗi lần đoán sai trừ 1/m số điểm
+2. [Tính tổng] 
+Tạo text file chứa các chữ số, thực hiện đọc và tính tổng các chữ số trong file
+3. [Tìm từ]
+Tạo text file chứa văn bản, thực hiện tìm kiếm một chuỗi từ trong file
+6. [Kiểm tra]
+Tiếp tục kiểm tra tính toàn vẹn của nội dung thư mục (tên file, thư mục con, nội dung thư mục và file.
+$ check.pl < đường dẫn >
+vd: $ check.pl C:\Baitap\project\
+p/s: Không cần làm cả ổ đĩa. 
+7. Tìm hiểu lập trình cơ sở dữ liệu trong perl
+8. Đưa ứng dụng vào hệ thống. Dùng mã nguồn mở Nagious
+Máy thật: máy được giám sát
+Máy ảo: Nagious server
+
+
+
