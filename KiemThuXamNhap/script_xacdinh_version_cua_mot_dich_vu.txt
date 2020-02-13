@@ -1,0 +1,9 @@
+echo "Nhap IP:"
+read ip
+echo "Nhap Service: "
+read service
+echo "Version $service: "$(nmap -sV -T4 $ip | grep -nw $service | awk '{print $4" "$5" "$6}')
+#grep lay ten service | -n lay theo dang insensitive (chu in hoac thuong deu duoc) |
+#-w lay dung ky tu. vd: grep -w http => chi lay http ko lay https
+#awk lay cot 4 va 5
+exit 0
